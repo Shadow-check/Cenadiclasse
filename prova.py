@@ -19,5 +19,5 @@ if price:
     total_price = (people_paying+people_professors)*price
 else:
     total_price = 0
-st.metric(label = " That's how much you pay", value = round(total_price/people_paying, 2))
+st.metric(label = "Ecco quanto paga una persona", value = round(total_price/people_paying, 2))
 
